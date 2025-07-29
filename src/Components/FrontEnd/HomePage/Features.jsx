@@ -39,11 +39,11 @@ const Features = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto shadow-2xl border-b-gray-700">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-gradient-to-b from-gray-700 to-black rounded-2xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-amber-700 transition-shadow duration-300"
+            className="bg-gradient-to-b from-gray-950 to-gray-700 rounded-2xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-amber-700 transition-shadow duration-300"
           >
             <div className="bg-white rounded-full p-5 mb-4">{feature.icon}</div>
             <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
